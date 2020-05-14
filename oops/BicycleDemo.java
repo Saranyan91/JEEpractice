@@ -37,7 +37,7 @@ class BicycleDemo {
         // Create two different 
         // Bicycle objects
         Bicycle bike1 = new Bicycle();
-        Bicycle bike2 = new Bicycle();
+        MountainBike bike2 = new MountainBike();
  
         // Invoke methods on 
         // those objects
@@ -47,10 +47,10 @@ class BicycleDemo {
         bike1.printStates();
  
         bike2.changeCadence(50);
-        bike2.speedUp(10);
+        bike2.speedUp(15);
         bike2.changeGear(2);
-        bike2.changeCadence(40);
-        bike2.speedUp(10);
+        bike2.changeCadence(45);
+        bike2.speedUp(12);
         bike2.changeGear(3);
         bike2.printStates();
     }
